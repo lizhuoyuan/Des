@@ -1,15 +1,6 @@
 package lzy.com.des;
 
-/**
- * Created by 卓原 on 2016/2/22.
- */
 public class Go {
-    /**
-     * main方法  。
-     *
-     * @param args
-     * @author 李卓原
-     */
     public static void main(String[] args) {
         try {
             String test = "liasd";
