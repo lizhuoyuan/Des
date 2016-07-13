@@ -1,5 +1,9 @@
 package lzy.com.des;
 
+/**
+ * des字符串加密
+ * Created by 卓原 on 2016/2/22.
+ */
 
 import java.security.Key;
 import java.security.Security;
@@ -7,9 +11,10 @@ import java.security.Security;
 import javax.crypto.Cipher;
 
 /**
- * des字符串加密
- * Created by 卓原 on 2016/2/22.
- * DES加密和解密工具,可以对字符串进行加密和解密操作
+ * DES加密和解密工具,可以对字符串进行加密和解密操作  。
+ *
+ * @author 刘尧兴
+ *         <p>2009-12-5</p>
  */
 public class DesUtils {
 
