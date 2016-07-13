@@ -3,7 +3,7 @@ package lzy.com.des;
 public class Go {
     public static void main(String[] args) {
         try {
-            String test = "liasd";
+            String test = "like";
             DesUtils des = new DesUtils();//可自定义密钥
             System.out.println("加密前的字符：" + test);
             System.out.println("加密后的字符：" + des.encrypt(test));
