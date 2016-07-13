@@ -8,7 +8,8 @@ public class Go {
             System.out.println("加密前的字符：" + test);
             System.out.println("加密后的字符：" + des.encrypt(test));
             System.out.println("解密后的字符：" + des.decrypt(des.encrypt(test)));
-            System.out.println("解密后的字符：" + des.decrypt("0b17dbc3f957d859"));//0b17dbc3f957d859为asd加密后的结果
+            //c3b54cb29f72fd4f为like加密后的结果
+            System.out.println("c3b54cb29f72fd4f解密后的字符：" + des.decrypt("c3b54cb29f72fd4f"));
         } catch (Exception e) {
             e.printStackTrace();
         }
